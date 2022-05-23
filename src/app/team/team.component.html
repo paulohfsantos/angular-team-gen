@@ -1,0 +1,7 @@
+<div class="team">
+  <h2>Team {{ index  + 1 }}</h2>
+  <div class="team_members">
+    <span *ngFor="let member of team">{{ member | titlecase }}</span>
+    <span>{{ currentDate | date }}</span>
+  </div>
+</div>
