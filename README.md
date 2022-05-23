@@ -22,6 +22,7 @@ $ npm install
 $ npm run start
 ```
 
-techs:
+## techs:
+
 - Angular 13
 - Typescript
